@@ -1,0 +1,41 @@
+.about__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about__title {
+  font-size: xxx-large;
+
+  margin-left: 6rem;
+
+  color: whitesmoke;
+}
+
+.about__slogan {
+  position: relative;
+  padding-left: 2.8rem;
+}
+
+.about__slogan::before {
+  content: '';
+  position: absolute;
+  width: 10rem;
+  height: 4px;
+  background-color: whitesmoke;
+  left: 0;
+  top: 6px;
+}
+
+.about__article {
+  width: 38rem;
+
+  font-size: x-large;
+
+  color: whitesmoke
+}

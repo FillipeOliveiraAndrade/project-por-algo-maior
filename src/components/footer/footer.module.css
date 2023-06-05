@@ -1,0 +1,36 @@
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__content {
+  margin-left: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+
+.footer__spotify {
+  width: 70px;
+  height: 70px;
+  margin-top: 8px;
+}
+
+.footer__title {
+  font-size: xx-large;
+
+  color: whitesmoke
+}
+
+.footer__social {
+  display: flex;
+  gap: 1rem;
+}

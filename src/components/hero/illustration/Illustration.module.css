@@ -1,0 +1,17 @@
+.illustration__title {
+  text-align: center;
+  font-size: 5rem;
+
+  background-image: linear-gradient(to bottom, green, greenyellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: whitesmoke;
+}
+
+.illustration__gif {
+  width: 32rem;
+  height: 32rem;
+
+  border-radius: 30px;
+}

@@ -1,0 +1,3 @@
+const aboutText = 'Somos o grupo jovem da Igreja Batista Peniel de Nova iguaçu, nosso objetivo é sempre ter um ambiente acolhedor e inspirador, onde os jovens possam crescer em sua fé, fortalecer uns aos outros e encontrar encorajamento para enfrentar os desafios da vida cotidiana. Acreditamos que seguir a Jesus é uma jornada de renúncia, entrega e transformação contínua, e estamos comprometidos a vivermos esse chamado.';
+
+export default aboutText;

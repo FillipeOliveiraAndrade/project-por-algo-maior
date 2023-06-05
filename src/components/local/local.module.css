@@ -1,0 +1,57 @@
+.local__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.local__title {
+  font-size: xxx-large;
+
+  margin-left: 6rem;
+
+  color: whitesmoke;
+}
+
+.local__subtitle {
+  font-size: larger;
+
+  margin-right: 6rem;
+
+  color: whitesmoke;
+}
+
+.local__slogan {
+  position: relative;
+  padding-left: 2.8rem;
+}
+
+.local__slogan::before {
+  content: '';
+  position: absolute;
+  width: 10rem;
+  height: 4px;
+  background-color: whitesmoke;
+  left: 0;
+  top: 6px;
+}
+
+.local__content {
+  display: flex;
+  justify-content: center;
+}
+
+.local__image {
+  width: 30%;
+  height: 500px;
+
+  border-radius: 50px 0 0 50px;
+  border: 4px solid green;
+}
+
+.local__map {
+  width: 30%;
+  height: 500px;
+
+  border-radius: 0 50px 50px 0;
+  border: 4px solid green;
+}

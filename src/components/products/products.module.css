@@ -1,0 +1,42 @@
+.products__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.products__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products__title {
+  font-size: xxx-large;
+
+  margin-left: 6rem;
+
+  color: whitesmoke;
+}
+
+.products__subtitle {
+  font-size: larger;
+
+  margin-right: 6rem;
+
+  color: whitesmoke;
+}
+
+.products__slogan {
+  position: relative;
+  padding-left: 2.8rem;
+}
+
+.products__slogan::before {
+  content: '';
+  position: absolute;
+  width: 10rem;
+  height: 4px;
+  background-color: whitesmoke;
+  left: 0;
+  top: 6px;
+}
