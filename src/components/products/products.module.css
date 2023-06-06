@@ -40,3 +40,54 @@
   left: 0;
   top: 6px;
 }
+
+/**=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 990px) {
+  .products__content {
+    display: flex;
+  }
+
+  .products__title {
+    font-size: x-large;
+  
+    margin-left: 6rem;
+  
+    color: whitesmoke;
+  }
+  
+  .products__subtitle {
+    margin-left: 4rem;
+    font-size: small;
+  
+    color: whitesmoke;
+  }
+  
+  .products__slogan {
+    position: relative;
+    padding-left: 2.8rem;
+  }
+  
+  .products__slogan::before {
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: 2px;
+    background-color: whitesmoke;
+    left: 0;
+    top: -6px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 640px) {
+
+}

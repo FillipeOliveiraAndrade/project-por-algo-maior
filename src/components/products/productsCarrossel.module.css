@@ -3,3 +3,35 @@
   justify-content: center;
   gap: 10rem;
 }
+
+.productsCarrossel__image {
+  height: 260px;
+}
+
+/**=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 990px) {
+  .productsCarrossel__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .productsCarrossel__image {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 640px) {
+
+}

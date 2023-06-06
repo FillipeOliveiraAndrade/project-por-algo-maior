@@ -6,3 +6,29 @@
   width: 600px;
   height: 400px;
 }
+
+/**=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 990px) {
+  .imagesCarrossel__container {
+    width: 350px;
+  }
+  
+  .imagesCarrossel__image {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 640px) {
+
+}

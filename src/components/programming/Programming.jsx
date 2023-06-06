@@ -17,7 +17,7 @@ function Programming() {
             ${ styles.programming__culto }
           `}
         >
-          <h3 className={ styles.programming__dataTitle }> Cultos Jovem </h3>
+          <h3 className={ styles.programming__dataTitle }> Culto Jovem </h3>
 
           <div>
             <p> 17/06 </p>

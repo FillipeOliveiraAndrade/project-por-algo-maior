@@ -37,3 +37,59 @@
   text-align: center;
   font-size: x-large;
 }
+
+/**=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 990px) {
+  .congressTheme__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .congressTheme__logo {
+    width: 6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .congressTheme__content {
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+  
+    color: whitesmoke;
+  }
+  
+  .congressTheme__title {
+    font-size: larger;
+  }
+  
+  .congressTheme__subtitle {
+    font-size: larger;
+    margin-top: -10px;
+  }
+  
+  .congressTheme__article {
+    width: 80%;
+  
+    color: whitesmoke;
+    
+    text-align: center;
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 770px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 640px) {
+
+}

@@ -17,8 +17,8 @@ function Header() {
 
       <nav className={ styles.header__nav }>
         <li> <a href="#home"> Inicio </a> </li>
-        <li> <a href="#about"> Sobre </a> </li>
         <li> <a href="#congress"> Congresso </a> </li>
+        <li> <a href="#about"> Sobre </a> </li>
         <li> <a href="#programming"> Programação </a> </li>
         <li> <a href="#products"> Produtos </a> </li>
         <li> <a href="#local"> Local </a> </li>

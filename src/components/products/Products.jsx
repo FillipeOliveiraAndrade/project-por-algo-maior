@@ -12,7 +12,7 @@ function Products() {
           <span className={ styles.products__slogan }></span>
         </div>
 
-        <h3 className={ styles.products__subtitle }> OBS: VENDAS APENAS NO LOCAL </h3>
+        <h3 className={ styles.products__subtitle }> VENDAS APENAS NO LOCAL </h3>
       </div>
 
       <ProductsCarrossel />

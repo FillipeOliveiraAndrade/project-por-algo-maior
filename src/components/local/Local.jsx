@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../assets/imageYoungPeople.jpeg'
+import image from '../../assets/localImage.jpeg'
 
 import styles from './local.module.css'
 

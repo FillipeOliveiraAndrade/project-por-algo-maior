@@ -10,7 +10,11 @@ function ProductsCarrossel() {
     >
       {images.map((image, index) => (
         <div key={ index }>
-          <img alt="Produto a venda dos jovens" src={ image } height={260} />
+          <img
+            className={ styles.productsCarrossel__image }
+            alt="Produto a venda dos jovens"
+            src={ image }
+          />
         </div>
       ))}
     </div>

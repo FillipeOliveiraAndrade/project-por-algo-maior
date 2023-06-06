@@ -15,3 +15,40 @@
 
   border-radius: 30px;
 }
+
+/**=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 990px) {
+  .illustration__title {
+    text-align: center;
+    font-size: 3.5rem;
+  
+    background-image: linear-gradient(to bottom, green, greenyellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: whitesmoke;
+  }
+
+  .illustration__gif {
+    width: 21rem;
+    height: 21rem;
+
+    margin-left: 2px;
+  
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 640px) {
+  
+}

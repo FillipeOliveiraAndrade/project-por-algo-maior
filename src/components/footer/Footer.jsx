@@ -13,7 +13,7 @@ function Footer() {
     <footer className={ styles.footer__container }>
       <div className={ styles.footer__content }>
         <img
-          className={ styles.footer__logo }
+          className={ styles.footer__logo_porAlgoMaior }
           src={ logo }
           alt="Imagem da logo Por Algo Maior"
         />
