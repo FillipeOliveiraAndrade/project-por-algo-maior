@@ -55,16 +55,21 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
+  .header__logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
 
+  .header__title {
+    font-size: 21px;
+    margin-top: 8px;
+  }
 }
 
 /* For medium devices */
-@media screen and (max-width: 990px) {
-
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .header__container {
     display: flex;
     flex-direction: column;
@@ -77,13 +82,13 @@
   }
   
   .header__logo {
-    width: 40px;
-    height: 40px;
+    width: 58px;
+    height: 58px;
     border-radius: 100%;
   }
 
   .header__title {
-    font-size: larger;
+    font-size: 22px;
     margin-top: -8px;
   }
 
@@ -93,6 +98,6 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 350px) {
 
 }

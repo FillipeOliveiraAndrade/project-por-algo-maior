@@ -44,15 +44,10 @@
 /**=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-
 }
 
 /* For medium devices */
-@media screen and (max-width: 990px) {
-
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .products__content {
     display: flex;
   }
@@ -89,6 +84,6 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 350px) {
 
 }

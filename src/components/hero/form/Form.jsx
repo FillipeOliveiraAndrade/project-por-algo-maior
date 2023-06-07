@@ -74,6 +74,7 @@ function Form() {
         <input
           className={ styles.form__input }
           type="text"
+          autoComplete="off"
           name="name"
           value={ inputValue.name }
           onChange={ handleChangeInput }
@@ -89,6 +90,7 @@ function Form() {
         <input
           className={ styles.form__input }
           type="text"
+          autoComplete="off"
           name="whatsapp"
           value={ inputValue.whatsapp }
           onChange={ handleChangeInput }
@@ -104,6 +106,7 @@ function Form() {
         <input
           className={ styles.form__input }
           type="email"
+          autoComplete="off"
           name="email"
           value={ inputValue.email }
           onChange={ handleChangeInput }

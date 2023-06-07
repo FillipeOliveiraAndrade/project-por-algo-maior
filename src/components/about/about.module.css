@@ -42,16 +42,35 @@
 
 /**=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
 
+  .about__article {
+    width: 80%;
+  
+    font-size: 22px;
+  
+    color: whitesmoke
+  }
 }
 
 /* For medium devices */
-@media screen and (max-width: 990px) {
-  
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .about__container {
     display: flex;
     flex-direction: column;

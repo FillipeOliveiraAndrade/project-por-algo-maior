@@ -42,16 +42,82 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
+  .footer__logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
 
+  
+  .footer__spotify {
+    width: 61px;
+    height: 61px;
+    margin-top: 7px;
+  }
+
+  .footer__logo_porAlgoMaior {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  }
+  
+  .footer__title {
+    font-size: 23px;
+
+    margin-top: 9px;
+    margin-left: 9px;
+  
+    color: whitesmoke
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer__container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__content {
+    margin-left: 0;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer__logo {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+  }
+
+  
+  .footer__spotify {
+    width: 53px;
+    height: 53px;
+    margin-top: 4px;
+  }
+
+  .footer__logo_porAlgoMaior {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  
+  .footer__title {
+    font-size: 21px;
+
+    margin-top: 9px;
+    margin-left: 9px;
+  
+    color: whitesmoke
+  }
 }
 
 /* For medium devices */
-@media screen and (max-width: 990px) {
-  
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .footer__container {
     display: flex;
     justify-content: space-around;
@@ -80,13 +146,13 @@
   }
 
   .footer__logo_porAlgoMaior {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     border-radius: 100%;
   }
   
   .footer__title {
-    font-size: large;
+    font-size: 18px;
 
     margin-top: 9px;
     margin-left: 9px;
@@ -96,6 +162,6 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 350px) {
 
 }

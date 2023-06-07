@@ -10,16 +10,32 @@
 
 /**=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
+  .productsCarrossel__container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
 
+  .productsCarrossel__image {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .productsCarrossel__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .productsCarrossel__image {
+    height: 260px;
+  }
 }
 
 /* For medium devices */
-@media screen and (max-width: 990px) {
-
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .productsCarrossel__container {
     display: flex;
     justify-content: center;
@@ -33,6 +49,6 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 350px) {
 
 }

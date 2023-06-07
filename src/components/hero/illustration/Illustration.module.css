@@ -18,25 +18,35 @@
 
 /**=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
+  .illustration__title {
+    font-size: 4.5rem;
+  }
 
+  .illustration__gif {
+    width: 28.5rem;
+    height: 28.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .illustration__title {
+    font-size: 4rem;
+  }
+
+  .illustration__gif {
+    width: 24rem;
+    height: 24rem;
+
+    margin-left: 3px;
+  }
 }
 
 /* For medium devices */
-@media screen and (max-width: 990px) {
-
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .illustration__title {
     text-align: center;
     font-size: 3.5rem;
-  
-    background-image: linear-gradient(to bottom, green, greenyellow);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: whitesmoke;
   }
 
   .illustration__gif {
@@ -50,6 +60,5 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 640px) {
-  
+@media screen and (max-width: 350px) {
 }

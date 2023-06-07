@@ -8,7 +8,7 @@
 }
 
 .congressTheme__logo {
-  width: 7rem;
+  width: 8rem;
 }
 
 .congressTheme__content {
@@ -40,16 +40,88 @@
 
 /**=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
+  .congressTheme__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .congressTheme__logo {
+    margin-bottom: 1rem;
+  }
+  
+  .congressTheme__content {
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+  
+    color: whitesmoke;
+  }
+  
+  .congressTheme__title {
+    font-size: 26px;
+  }
+  
+  .congressTheme__subtitle {
+    font-size: larger;
+    margin-top: -10px;
+  }
+  
+  .congressTheme__article {
+    width: 75%;
+  
+    color: whitesmoke;
+    
+    text-align: center;
+    font-size: 22px;
+  }
+}
 
+@media screen and (max-width: 992px) {
+  .congressTheme__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .congressTheme__logo {
+    margin-bottom: 1rem;
+  }
+  
+  .congressTheme__content {
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+  
+    color: whitesmoke;
+  }
+  
+  .congressTheme__title {
+    font-size: 22px;
+  }
+  
+  .congressTheme__subtitle {
+    font-size: larger;
+    margin-top: -10px;
+  }
+  
+  .congressTheme__article {
+    width: 75%;
+  
+    color: whitesmoke;
+    
+    text-align: center;
+    font-size: 22px;
+  }
 }
 
 /* For medium devices */
-@media screen and (max-width: 990px) {
-  
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .congressTheme__container {
     display: flex;
     flex-direction: column;
@@ -91,6 +163,6 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 350px) {
 
 }
