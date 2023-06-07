@@ -20,7 +20,7 @@ function Programming() {
           <h3 className={ styles.programming__dataTitle }> Culto Jovem </h3>
 
           <div>
-            <p> 17/06 </p>
+            <p> 01/07 </p>
             <span> Pré-Congresso - 19:00h </span>
           </div>
         </div>

@@ -24,6 +24,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 990px) {
+
+}
+
+@media screen and (max-width: 770px) {
   .illustration__title {
     text-align: center;
     font-size: 3.5rem;
@@ -43,9 +47,6 @@
   
     border-radius: 30px;
   }
-}
-
-@media screen and (max-width: 770px) {
 }
 
 /* For small devices */

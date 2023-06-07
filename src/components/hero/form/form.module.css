@@ -36,8 +36,28 @@
   text-align: center;
 }
 
+.form__termos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.form__checkbox {
+  width: 1rem;
+  height: 1rem;
+
+  margin-right: 6px;
+}
+
+.form__checkbox_text {
+  font-size: 14px;
+  text-align: center;
+}
+
 .form__button {
-  margin-top: 5rem;
+  margin-top: 2px;
 
   padding: 1.2rem;
   width: 12rem;
@@ -51,6 +71,28 @@
   font-weight: bold;
 }
 
+.modal__container {
+  margin-top: 12rem;
+}
+
+.modal__header {
+  background: linear-gradient( -110grad, #4F4F4F, #363636);
+  color: white;
+}
+
+.modal__title {
+  margin-left: 3rem;
+}
+
+.modal__body {
+  background: linear-gradient( -110grad, greenyellow, green);
+  color: #363636;
+
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
+
 /**=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -59,6 +101,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 990px) {
+  
+}
+
+@media screen and (max-width: 770px) {
   .form__container {
     order: 2;
   }
@@ -97,9 +143,50 @@
     font-size: large;
     font-weight: bold;
   }
-}
 
-@media screen and (max-width: 770px) {
+  .form__termos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-bottom: -3rem;
+  }
+  
+  .form__checkbox {
+    width: 1rem;
+    height: 1rem;
+  
+    margin-right: 6px;
+  }
+  
+  .form__checkbox_text {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .modal__container {
+    margin-left: -2.5rem;
+    padding: 20%;
+  }
+  
+  .modal__header {
+    background: linear-gradient( -110grad, #4F4F4F, #363636);
+  }
+  
+  .modal__title {
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .modal__body {
+    background: linear-gradient( -110grad, greenyellow, green);
+    color: #363636;
+  
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+  }
 }
 
 /* For small devices */

@@ -88,6 +88,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 990px) {
+  
+}
+
+@media screen and (max-width: 770px) {
   .programming__content {
     display: flex;
     flex-direction: column;
@@ -166,9 +170,6 @@
     margin-left: 3rem;
     margin-right: 3rem;
   }
-}
-
-@media screen and (max-width: 770px) {
 }
 
 /* For small devices */

@@ -61,6 +61,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 990px) {
+
+}
+
+@media screen and (max-width: 770px) {
   .header__container {
     display: flex;
     flex-direction: column;
@@ -86,9 +90,6 @@
   .header__nav {
     visibility: hidden;
   }
-}
-
-@media screen and (max-width: 770px) {
 }
 
 /* For small devices */

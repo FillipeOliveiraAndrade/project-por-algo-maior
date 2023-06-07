@@ -49,6 +49,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 990px) {
+
+}
+
+@media screen and (max-width: 770px) {
   .products__content {
     display: flex;
   }
@@ -82,9 +86,6 @@
     left: 0;
     top: -6px;
   }
-}
-
-@media screen and (max-width: 770px) {
 }
 
 /* For small devices */
