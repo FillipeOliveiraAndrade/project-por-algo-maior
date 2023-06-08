@@ -94,7 +94,7 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .programming__content {
     display: flex;
     flex-direction: column;
@@ -144,7 +144,7 @@
   }
   
   .programming__data span {
-    padding: 8px;
+    padding: 6px;
     width: 14rem;
   
     background: linear-gradient( -110grad, green, greenyellow);
@@ -176,6 +176,20 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 585px) {
+  .programming__dataTitle {
+    font-size: 16px;
+  }
 
+  .programming__data span {
+    padding: 6px;
+    width: 12rem;
+  
+    font-size: 14px;
+  }
+
+  .programming__congresso {    
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }

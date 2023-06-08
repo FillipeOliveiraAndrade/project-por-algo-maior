@@ -179,7 +179,14 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
+  .form__checkbox_text {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
   .form__container {
     order: 2;
   }
@@ -189,7 +196,7 @@
     align-items: center;
     gap: 6px;
   
-    font-size: large;
+    font-size: 22px;
   }
   
   .form__input {
@@ -241,6 +248,7 @@
   }
 
   .modal__container {
+    margin-left: -4rem;
     padding: 20%;
   }
   
@@ -264,6 +272,56 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 585px) {
+  .form__textlabel {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  
+    font-size: large;
+  }
+  
+  .form__input {
+    padding: 10px;
+  
+    width: 17rem;
+  
+    border-radius: 25px 25px 25px 25px;
+  
+    border: none;
+  
+    text-align: center;
+  }
 
+  .form__button {
+    padding: 12px;
+    width: 12rem;
+  }
+
+  
+  .form__checkbox_text {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .modal__container {
+    padding: 20%;
+  }
+  
+  .modal__header {
+    background: linear-gradient( -110grad, #4F4F4F, #363636);
+  }
+  
+  .modal__title {
+    text-align: center;
+  }
+  
+  .modal__body {
+    background: linear-gradient( -110grad, greenyellow, green);
+    color: #363636;
+  
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+  }
 }

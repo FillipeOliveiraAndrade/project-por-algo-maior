@@ -33,7 +33,7 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .imagesCarrossel__container {
     width: 530px;
   }
@@ -45,6 +45,13 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 585px) {
+  .imagesCarrossel__container {
+    width: 290px;
+  }
+  
+  .imagesCarrossel__image {
+    width: 290px;
+    height: 200px;
+  }
 }

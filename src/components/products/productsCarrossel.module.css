@@ -35,7 +35,7 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .productsCarrossel__container {
     display: flex;
     justify-content: center;
@@ -49,6 +49,8 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 585px) {
+  .productsCarrossel__image {
+    height: 160px;
+  }
 }

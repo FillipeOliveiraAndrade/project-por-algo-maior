@@ -70,7 +70,7 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .about__container {
     display: flex;
     flex-direction: column;
@@ -121,6 +121,12 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 640px) {
-
+@media screen and (max-width: 585px) {
+  .about__article {
+    width: 80%;
+  
+    font-size: 14px;
+  
+    color: whitesmoke
+  }
 }
