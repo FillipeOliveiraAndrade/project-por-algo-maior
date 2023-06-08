@@ -248,7 +248,7 @@
   }
 
   .modal__container {
-    margin-left: -4rem;
+    margin-left: 0;
     padding: 20%;
   }
   
@@ -305,23 +305,7 @@
   }
 
   .modal__container {
-    padding: 20%;
-  }
-  
-  .modal__header {
-    background: linear-gradient( -110grad, #4F4F4F, #363636);
-  }
-  
-  .modal__title {
-    text-align: center;
-  }
-  
-  .modal__body {
-    background: linear-gradient( -110grad, greenyellow, green);
-    color: #363636;
-  
-    text-align: center;
-    font-size: large;
-    font-weight: 700;
+    padding: 10%;
+    margin-left: 0;
   }
 }
