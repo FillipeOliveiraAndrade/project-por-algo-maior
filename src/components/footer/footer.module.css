@@ -29,6 +29,11 @@
   margin-top: 8px;
 }
 
+.footer__youtube {
+  height: 60px;
+  margin-top: 12px;
+}
+
 .footer__title {
   font-size: xx-large;
 
@@ -54,6 +59,11 @@
     width: 61px;
     height: 61px;
     margin-top: 7px;
+  }
+
+  .footer__youtube {
+    height: 56px;
+    margin-top: 9px;
   }
 
   .footer__logo_porAlgoMaior {
@@ -93,11 +103,15 @@
     border-radius: 100%;
   }
 
-  
   .footer__spotify {
     width: 53px;
     height: 53px;
     margin-top: 4px;
+  }
+
+  .footer__youtube {
+    height: 48px;
+    margin-top: 6px;
   }
 
   .footer__logo_porAlgoMaior {
@@ -138,11 +152,15 @@
     border-radius: 100%;
   }
 
-  
   .footer__spotify {
     width: 40px;
     height: 40px;
     margin-top: 4px;
+  }
+
+  .footer__youtube {
+    height: 39px;
+    margin-top: 4.8px;
   }
 
   .footer__logo_porAlgoMaior {
@@ -172,10 +190,18 @@
     color: whitesmoke
   }
 
+  .footer__youtube {
+    height: 36px;
+    margin-top: 5px;
+  }
+
   .footer__logo_porAlgoMaior {
     width: 44px;
     height: 44px;
     border-radius: 100%;
   }
-  
+
+  .footer__social {
+    gap: 4px
+  }  
 }
