@@ -1,5 +1,5 @@
 import React from 'react'
-import gif from '../../../assets/gifMoletom.gif';
+import imageMoletom from '../../../assets/imageMoletom.jpeg';
 
 import styles from './Illustration.module.css'
 
@@ -12,7 +12,7 @@ function Illustration() {
         </h2>
       <img
         className={ styles.illustration__gif }
-        src={ gif }
+        src={ imageMoletom }
         alt="Gif do moletom sorteado"
       />
     </div>
